@@ -1,7 +1,7 @@
 ## Desktop Contact Search Widget
 
 
-![Voice SDK Sample](./images/contact-search.png.png)
+![Voice SDK Sample](./images/contact-search.png)
 
 ### Executing the sample
 
