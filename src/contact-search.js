@@ -178,7 +178,7 @@ tbody tr:hover {
 //Creating a custom logger
 const logger = Desktop.logger.createLogger("jjakel");
 
-class myDesktopSDK extends HTMLElement {
+class contact_search extends HTMLElement {
   constructor() {
     super();
     logger.info("jjakel", "started");
@@ -616,4 +616,4 @@ async makeCall(phone){
   }
 }
 
-customElements.define("contact-search", myDesktopSDK);
+customElements.define("contact-search", contact_search);
