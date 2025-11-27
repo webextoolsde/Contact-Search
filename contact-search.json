@@ -87,14 +87,14 @@
     "navigation": [
       {
         "nav": {
-          "label": "Voice SDK",
+          "label": "Contact Search",
           "icon": "call-voicemail",
           "iconType": "momentum",
-          "navigateTo": "voice-sdk",
+          "navigateTo": "contact-search",
           "align": "top"
         },
         "page": {
-          "id": "voice-sdk",
+          "id": "contact-search",
           "widgets": {
             "comp2": {
               "comp": "div",
@@ -104,10 +104,10 @@
               },
               "children": [
                 {
-                  "comp": "sa-ds-voice-sdk",
-                  "script": "http://localhost:5000/build/bundle.js",
+                  "comp": "contact-search",
+                  "script": "https://webextoolsde.github.io/Contact-Search/src/build/contact-search.js",
                   "wrapper": {
-                    "title": "CallControl SDK Methods",
+                    "title": "Contact Search",
                     "maximizeAreaName": "app-maximize-area"
                   },
                   "attributes": {
@@ -115,7 +115,8 @@
                   },
                   "properties": {
                     "accessToken": "$STORE.auth.accessToken",
-                    "outdialEp": "$STORE.agent.outDialEp"
+                    "outdialEp": "2df8d2e9-aac0-4b58-8bff-acb975c1d74c",
+                    "orgId":"febe91de-9246-4ec4-9972-020480615eac"
                   }
                 }
               ]
